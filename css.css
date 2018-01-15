@@ -1,0 +1,125 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 15px;
+}
+.top{
+    width: 490px;
+    height: 200px;
+    margin: 0 auto;
+    background:skyblue;
+    padding: 0 5px 5px 5px;
+
+}
+.top h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 20px 0 20px 0;
+}
+#nr{
+
+    height: 80px;
+    overflow: auto;
+    background: white;
+    border: 2px solid gray;
+}
+.ty{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background: yellowgreen;
+    border-bottom:1px solid gray;
+    position: relative;
+}
+.ty h6{
+    padding-left: 6px;
+    display: inline;
+    color: blue;
+}
+#check{
+    margin-top: 2px;
+    position: absolute;
+    left: 184px;
+    top:12px;
+
+}
+.bottom{
+    width: 500px;
+    margin: 0 auto;
+    background: pink;
+}
+.bottom ul{
+    list-style: none;
+}
+.bottom ul li{
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    border-bottom:2px solid gray;
+    text-align: left;
+
+}
+.ncc,.mmm{
+    padding-left: 35px;
+}
+.yxx{
+    padding-left: 5px;
+}
+.qmm{
+    padding-left:5px;
+}
+.yzmm{
+    padding-left: 20px;
+    position: relative;
+}
+.yzmm img{
+    width: 20px;
+    position: absolute;
+    top:9px;
+    right:215px;
+}
+#years{
+    width: 52px;
+    }
+#months,#days{
+    width: 38px;
+}
+.auth{                   /*验证*/
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    position: absolute;
+    top:5px;
+    right: 5px;
+    border-radius: 15%;
+    text-align: center;
+    line-height: 30px;
+
+}
+.judge{                  /*判断*/
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top:14px;
+    left:230px;
+}
+.daiding{
+
+}
+.cha{
+    background:url("im/cha.png") no-repeat center center;
+    background-size: 20px 16px;
+}
+.gou{
+    background: url("im/gou.png") no-repeat center center;
+    background-size: 20px 16px;
+}
+.riqi{
+    padding-left: 6px;
+}
+#y{
+    font-size: 14px;
+}
